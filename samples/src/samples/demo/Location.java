@@ -2,7 +2,6 @@ package samples.demo;
 
 public class Location {
 
-	private int assignment;
 	private int kerja;
 
 	public int getKerja() {
@@ -13,11 +12,4 @@ public class Location {
 		this.kerja = kerja;
 	}
 
-	public int getAssignment() {
-		return assignment;
-	}
-
-	public void setAssignment(int assignment) {
-		this.assignment = assignment;
-	}
 }
